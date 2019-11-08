@@ -643,7 +643,7 @@ A sparse accessor `min` and `max` properties correspond, respectively, to the mi
 
 When neither `sparse` nor `bufferView` is defined, `min` and `max` properties could have any values. This is intended for use cases when binary data is supplied by external means (e.g., via extensions).
 
-#### Data Alignment
+### Data Alignment
 
 The offset of an `accessor` into a `bufferView` (i.e., `accessor.byteOffset`) and the offset of an `accessor` into a `buffer` (i.e., `accessor.byteOffset + bufferView.byteOffset`) must be a multiple of the size of the accessor's component type.
 
